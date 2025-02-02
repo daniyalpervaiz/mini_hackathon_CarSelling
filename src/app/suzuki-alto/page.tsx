@@ -1,25 +1,25 @@
 import Link from "next/link"
 export default function SuzukiAlto() {
     return (<div>
-        <div className="w-full bg-blue-200 h-[80vh] flex justify-center">
+        <div className="w-full bg-blue-200 h-full 2xl:h-[80vh] flex justify-center">
 
-            <div className="w-[60%] ">
-                <h1 className="text-black font-bold text-4xl text-center mb-4 underline">Suzuki Alto 2024 price in Pakistan,images,Reviews & Specs</h1>
+            <div className="md:w-[60%] w-full ">
+                <h1 className="text-black font-bold text-[18px] md:text-4xl text-center mb-4 underline">Suzuki Alto 2024 price in Pakistan,images,Reviews & Specs</h1>
                 <div className="flex  items-center flex-col ">
                     <div className="w-56 h-40  ">
                         <img src="./SuzukiAltodetail.webp" alt="" /></div>
 
                     <div className="flex gap-3">
-                        <button className="bg-white border-2 w-36 h-12 rounded-2xl text-xs border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Book a test drive</button>
-                        <button className="bg-white border-2 w-36 h-12 rounded-2xl text-xs  border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Request Bank Finance</button>
-                        <button className="bg-white border-2 w-36 h-12 rounded-2xl text-xs  border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Visit Place</button>
-                        <button className="bg-white border-2 w-36 h-12 rounded-2xl text-xs  border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Car Inpection</button></div>
+                        <button className="bg-white border-2 w-[70px] md:w-36 h-12 rounded-2xl lg:text-[14px] text-[9px] md:text-xs border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Book a test drive</button>
+                        <button className="bg-white border-2 w-[70px] md:w-36 h-12 rounded-2xl lg:text-[14px] text-[9px] md:text-xs  border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Request Bank Finance</button>
+                        <button className="bg-white border-2 w-[70px] md:w-36 h-12 rounded-2xl lg:text-[14px] text-[9px] md:text-xs  border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Visit Place</button>
+                        <button className="bg-white border-2 w-[70px] md:w-36 h-12 rounded-2xl lg:text-[14px] text-[9px] md:text-xs  border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-white">Car Inpection</button></div>
 
 
                     <div className="mt-4"><h2>Vehicle Description</h2></div><br />
 
 
-                    <div className="flex gap-10  text-xs ">
+                    <div className="flex flex-col md:flex-row md:gap-10 text-xs  ">
 
                         <div><b>Numbers of Doors </b>4</div>
                         <div><b>Engine</b> 660cc</div>
@@ -28,7 +28,7 @@ export default function SuzukiAlto() {
                         <div><b>Suspension</b> Soft Suspension</div></div>
 
 
-                    <div className="flex gap-20 leading-10 text-xs">
+                    <div className="flex flex-col md:flex-row md:gap-20 gap-0 md:leading-10 text-xs">
                         <div><b>Avg</b> 22 Km ltr</div>
                         <div><b>Transmission</b> Automatic </div>
                         <div><b>Fuel Type</b> High Octane</div></div><br /><br />
